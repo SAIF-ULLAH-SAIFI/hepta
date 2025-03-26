@@ -124,6 +124,41 @@ body{
     color: #fff;
     margin-bottom: 49px;
 }
+@media (max-width: 768px) {
+    .first-header {
+        padding: 20px;
+    }
+
+    .first-logo a {
+        font-size: 24px;
+    }
+
+    .menu-toggle {
+        font-size: 40px;
+    }
+
+    .main-text h1 {
+        font-size: 50px;
+    }
+
+    .simple-text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-text h1 {
+        font-size: 40px;
+    }
+
+    .simple-text {
+        font-size: 16px;
+    }
+
+    .list-menu li {
+        font-size: 24px;
+    }
+}
 
 .contact-section{
     padding: 126px 0;
@@ -185,6 +220,41 @@ body{
     font-weight: bold;
     margin-bottom: 30px;
 }
+@media (max-width: 768px) {
+    .contact {
+        flex-direction: column;
+        padding: 0 1.5rem;
+        gap: 2rem;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .contact-address {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-form {
+        padding: 1.5rem;
+    }
+
+    .contact-form input, 
+    .contact-form textarea {
+        font-size: 14px;
+    }
+
+    .contact-form button {
+        font-size: 16px;
+    }
+
+    .contact-address p {
+        font-size: 20px;
+    }
+}
+
 
 .review-section{
     /* background-color: #FAFAFA; */
@@ -220,6 +290,30 @@ body{
     color: #6C757D;
     margin-bottom: 15px;
     line-height: 1.5;
+}
+@media (max-width: 768px) {
+    .review-section {
+        padding: 60px 0;
+    }
+    .review {
+        flex-direction: column;
+        align-items: center;
+    }
+    .review-cards {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .review-section {
+        padding: 40px 0;
+    }
+    .review-cards p {
+        font-size: 16px;
+    }
+    .review-cards img {
+        width: 60px;
+    }
 }
 
 .footer-section{
@@ -288,4 +382,32 @@ body{
 
 .footer-icons a{
     padding: 10px;
+}
+@media (max-width: 768px) {
+    .footer-section {
+        padding: 80px 15px;
+    }
+    .footer-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footercards {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-section {
+        padding: 60px 10px;
+    }
+    .footercards h3 {
+        font-size: 18px;
+    }
+    .footercards li, .footercards p {
+        font-size: 14px;
+    }
+    .mailbtn, .mailsubs {
+        height: 40px;
+    }
 }
